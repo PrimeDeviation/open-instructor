@@ -15,3 +15,12 @@ The last two runs of the GitHub Actions workflow on the self-improvement branch 
 
 ## Update
 We discovered that the workflow by the original developers already existed in a workflow file called python-package.yml. We updated this workflow to run on commits to our current branch, self-improvement.
+
+## Steps Taken
+1. Updated the python-package.yml workflow file.
+2. Set the OPENAI_API_KEY environment variable in the workflow to the value of the OPENAI_API_KEY secret.
+3. Removed the ci.yml workflow file.
+4. Committed and pushed the changes to the self-improvement branch.
+5. Checked the status of the GitHub Actions workflow using the GitHub CLI.
+6. Viewed the details of the workflow runs and the logs of the failed steps.
+7. Created a repository secret for the OpenAI API key.
