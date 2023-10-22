@@ -14,12 +14,12 @@
 
 <br>
 
-![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
+![poster](https://github.com/KillianLucas/open-instructor/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
 
 <br>
 
 ```shell
-pip install open-interpreter
+pip install open-instructor
 ```
 
 ```shell
@@ -43,7 +43,7 @@ interpreter
 
 ## デモ
 
-https://github.com/KillianLucas/open-interpreter/assets/63927363/37152071-680d-4423-9af3-64836a6f7b60
+https://github.com/KillianLucas/open-instructor/assets/63927363/37152071-680d-4423-9af3-64836a6f7b60
 
 #### Google Colabでもインタラクティブなデモを利用できます：
 
@@ -52,7 +52,7 @@ https://github.com/KillianLucas/open-interpreter/assets/63927363/37152071-680d-4
 ## クイックスタート
 
 ```shell
-pip install open-interpreter
+pip install open-instructor
 ```
 
 ### ターミナル

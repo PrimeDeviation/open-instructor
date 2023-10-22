@@ -55,7 +55,7 @@ class Interpreter:
         if not self.local:
             # This should actually be pushed into the utility
             if check_for_update():
-                display_markdown_message("> **A new version of Open Interpreter is available.**\n>Please run: `pip install --upgrade open-interpreter`\n\n---")
+                display_markdown_message("> **A new version of Open Interpreter is available.**\n>Please run: `pip install --upgrade open-instructor`\n\n---")
 
     def chat(self, message=None, display=True, stream=False):
         if stream:

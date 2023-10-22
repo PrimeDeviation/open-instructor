@@ -33,11 +33,11 @@ load_dotenv()
 
 def check_for_update():
     # Fetch the latest version from the PyPI API
-    response = requests.get(f'https://pypi.org/pypi/open-interpreter/json')
+    response = requests.get(f'https://pypi.org/pypi/open-instructor/json')
     latest_version = response.json()['info']['version']
 
     # Get the current version using pkg_resources
-    current_version = pkg_resources.get_distribution("open-interpreter").version
+    current_version = pkg_resources.get_distribution("open-instructor").version
 
     return version.parse(latest_version) > version.parse(current_version)
 
@@ -49,7 +49,7 @@ def cli(interpreter):
 
   try:
     if check_for_update():
-      print("A new version is available. Please run 'pip install --upgrade open-interpreter'.")
+      print("A new version is available. Please run 'pip install --upgrade open-instructor'.")
   except:
     # Fine if this fails
     pass
@@ -126,7 +126,7 @@ def cli(interpreter):
   args = parser.parse_args()
 
   if args.version:
-    print("Open Interpreter", pkg_resources.get_distribution("open-interpreter").version)
+    print("Open Interpreter", pkg_resources.get_distribution("open-instructor").version)
     return
 
   if args.max_tokens:

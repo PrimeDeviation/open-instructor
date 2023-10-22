@@ -8,7 +8,7 @@ body:
       value: |
         Your issue may have already been reported. Please check the following link for common issues and solutions.
 
-        [Commonly faced issues and their solutions](https://github.com/KillianLucas/open-interpreter/issues/164)
+        [Commonly faced issues and their solutions](https://github.com/KillianLucas/open-instructor/issues/164)
   - type: textarea
     id: description
     attributes:
@@ -44,7 +44,7 @@ body:
     id: oiversion
     attributes:
       label: Open Interpreter version
-      description: Run `pip show open-interpreter`
+      description: Run `pip show open-instructor`
       placeholder: e.g. 0.1.1
     validations:
       required: true

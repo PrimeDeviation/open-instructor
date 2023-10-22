@@ -49,7 +49,7 @@ def setup_text_llm(interpreter):
 
             display_markdown_message(f"""
             > Failed to install `{interpreter.model}`.
-            \n\n**Common Fixes:** You can follow our simple setup docs at the link below to resolve common errors.\n\n> `https://github.com/KillianLucas/open-interpreter/tree/main/docs`
+            \n\n**Common Fixes:** You can follow our simple setup docs at the link below to resolve common errors.\n\n> `https://github.com/KillianLucas/open-instructor/tree/main/docs`
             \n\n**If you've tried that and you're still getting an error, we have likely not built the proper `{interpreter.model}` support for your system.**
             \n\n*( Running language models locally is a difficult task!* If you have insight into the best way to implement this across platforms/architectures, please join the Open Interpreter community Discord and consider contributing the project's development.
             """)

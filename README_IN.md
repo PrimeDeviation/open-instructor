@@ -16,12 +16,12 @@
 
 <br>
 
-![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
+![poster](https://github.com/KillianLucas/open-instructor/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
 
 <br>
 
 ```shell
-pip install open-interpreter
+pip install open-instructor
 ```
 
 ```shell
@@ -50,7 +50,7 @@ interpreter
 ## त्वरित प्रारंभ
 
 ```shell
-pip install open-interpreter
+pip install open-instructor
 ```
 
 ### टर्मिनल

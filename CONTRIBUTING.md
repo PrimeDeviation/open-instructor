@@ -14,7 +14,7 @@ As such, we aim to keep the codebase simplified rather than overly complex. Our 
 
 ## Reporting Issues
 
-If you encounter a bug or have a brilliant feature in mind, don't hesitate to [open a new issue](https://github.com/KillianLucas/open-interpreter/issues/new/choose). To ensure a swift and effective response, please provide the following:
+If you encounter a bug or have a brilliant feature in mind, don't hesitate to [open a new issue](https://github.com/KillianLucas/open-instructor/issues/new/choose). To ensure a swift and effective response, please provide the following:
 
 - **Bug Reports:** Include detailed steps to reproduce the issue, along with specifics about your operating system and Python version, with screenshots and code/error snippets if required.
 - **Feature Requests:** Provide a comprehensive explanation of how your idea benefits Open Interpreter and its community.
@@ -39,7 +39,7 @@ We welcome code contributions through pull requests. Here are some guidelines:
 
 Once you've forked the code and created a new branch for your work, you can run the fork in CLI mode by following these steps:
 
-1. CD into the project folder `/open-interpreter`
+1. CD into the project folder `/open-instructor`
 2. Install dependencies `poetry install`
 3. Run the program `poetry run interpreter`
 
@@ -63,7 +63,7 @@ Join our [Discord community][discord] to connect with contributors. We're happy 
 
 ## Licensing
 
-Contributions to open-interpreter would be under the MIT license. 
+Contributions to open-instructor would be under the MIT license. 
 
 Thank you for your dedication and understanding as we continue refining our processes. We sincerely appreciate your involvement!
 

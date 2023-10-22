@@ -18,10 +18,10 @@ conda create -n openinterpreter python=3.11.4
 conda activate openinterpreter
 ```
 
-**Install open-interpreter:**
+**Install open-instructor:**
 
 ```
-pip install open-interpreter
+pip install open-instructor
 ```
 
 **Uninstall any previously installed llama-cpp-python packages:**

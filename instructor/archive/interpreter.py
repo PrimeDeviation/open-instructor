@@ -342,7 +342,7 @@ class Interpreter:
 
           print(Markdown("".join([
             f"> Failed to install `{self.model}`.",
-            f"\n\n**Common Fixes:** You can follow our simple setup docs at the link below to resolve common errors.\n\n```\nhttps://github.com/KillianLucas/open-interpreter/tree/main/docs\n```",
+            f"\n\n**Common Fixes:** You can follow our simple setup docs at the link below to resolve common errors.\n\n```\nhttps://github.com/KillianLucas/open-instructor/tree/main/docs\n```",
             f"\n\n**If you've tried that and you're still getting an error, we have likely not built the proper `{self.model}` support for your system.**",
             "\n\n*( Running language models locally is a difficult task!* If you have insight into the best way to implement this across platforms/architectures, please join the Open Interpreter community Discord and consider contributing the project's development. )",
             "\n\nPress enter to switch to `GPT-4` (recommended)."
@@ -952,7 +952,7 @@ class Interpreter:
           if not self.local and "parsed_arguments" not in self.messages[-1]["function_call"]:
 
             # After collecting some data via the below instruction to users,
-            # This is the most common failure pattern: https://github.com/KillianLucas/open-interpreter/issues/41
+            # This is the most common failure pattern: https://github.com/KillianLucas/open-instructor/issues/41
 
             # print("> Function call could not be parsed.\n\nPlease open an issue on Github (openinterpreter.com, click Github) and paste the following:")
             # print("\n", self.messages[-1]["function_call"], "\n")
