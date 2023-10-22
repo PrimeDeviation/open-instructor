@@ -1,4 +1,4 @@
-<h1 align="center">● Open Instructorgit push -f origin main</h1>
+<h1 align="center">● Open Instructor</h1>
 
 <p align="center">
     <a href="https://discord.gg/6p3fD6rBVm">
