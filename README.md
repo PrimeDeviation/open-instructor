@@ -1,4 +1,4 @@
-<h1 align="center">● Open Interpreter</h1>
+<h1 align="center">● Open Instructorgit push -f origin main</h1>
 
 <p align="center">
     <a href="https://discord.gg/6p3fD6rBVm">
@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white&style=flat" alt="License"/>
     <br><br>
     <b>Let language models run code on your computer.</b><br>
-    An open-source, locally running implementation of OpenAI's Code Interpreter.<br>
+    An open-source, locally running implementation of OpenAI's Code Instructor.<br>
     <br><a href="https://openinterpreter.com">Get early access to the desktop application.</a><br>
 </p>
 
@@ -30,7 +30,7 @@ interpreter
 
 <br>
 
-**Open Interpreter** lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal by running `$ interpreter` after installing.
+**Open Instructor** lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Instructor through a ChatGPT-like interface in your terminal by running `$ interpreter` after installing.
 
 This provides a natural-language interface to your computer's general-purpose capabilities:
 
@@ -74,9 +74,9 @@ interpreter.chat("Plot AAPL and META's normalized stock prices") # Executes a si
 interpreter.chat() # Starts an interactive chat
 ```
 
-## Comparison to ChatGPT's Code Interpreter
+## Comparison to ChatGPT's Code Instructor
 
-OpenAI's release of [Code Interpreter](https://openai.com/blog/chatgpt-plugins#code-interpreter) with GPT-4 presents a fantastic opportunity to accomplish real-world tasks with ChatGPT.
+OpenAI's release of [Code Instructor](https://openai.com/blog/chatgpt-plugins#code-interpreter) with GPT-4 presents a fantastic opportunity to accomplish real-world tasks with ChatGPT.
 
 However, OpenAI's service is hosted, closed-source, and heavily restricted:
 
@@ -87,9 +87,9 @@ However, OpenAI's service is hosted, closed-source, and heavily restricted:
 
 ---
 
-Open Interpreter overcomes these limitations by running on your local environment. It has full access to the internet, isn't restricted by time or file size, and can utilize any package or library.
+Open Instructor overcomes these limitations by running on your local environment. It has full access to the internet, isn't restricted by time or file size, and can utilize any package or library.
 
-This combines the power of GPT-4's Code Interpreter with the flexibility of your local development environment.
+This combines the power of GPT-4's Code Instructor with the flexibility of your local development environment.
 
 ## Commands
 
@@ -123,7 +123,7 @@ interpreter.chat("These look great but can you make the subtitles bigger?")
 
 ### Start a New Chat
 
-In Python, Open Interpreter remembers conversation history. If you want to start fresh, you can reset it:
+In Python, Open Instructor remembers conversation history. If you want to start fresh, you can reset it:
 
 ```python
 interpreter.reset()
@@ -142,7 +142,7 @@ interpreter.load(messages) # Resume chat from 'messages' ("Killian" will be reme
 
 ### Customize System Message
 
-You can inspect and configure Open Interpreter's system message to extend its functionality, modify permissions, or give it more context.
+You can inspect and configure Open Instructor's system message to extend its functionality, modify permissions, or give it more context.
 
 ```python
 interpreter.system_message += """
@@ -165,7 +165,7 @@ In Python, you will need to set the model manually:
 interpreter.model = "gpt-3.5-turbo"
 ```
 
-### Running Open Interpreter locally
+### Running Open Instructor locally
 
 ⓘ **Issues running locally?** Read our new [GPU setup guide](./docs/GPU.md) and [Windows setup guide](./docs/WINDOWS.md).
 
@@ -212,7 +212,7 @@ interpreter.azure_api_type = "azure"
 
 ### Debug mode
 
-To help contributors inspect Open Interpreter, `--debug` mode is highly verbose.
+To help contributors inspect Open Instructor, `--debug` mode is highly verbose.
 
 You can activate debug mode by using it's flag (`interpreter --debug`), or mid-chat:
 
@@ -243,7 +243,7 @@ Feel free to try out these commands and let us know your feedback!
 
 ### Configuration with .env
 
-Open Interpreter allows you to set default behaviors using a .env file. This provides a flexible way to configure the interpreter without changing command-line arguments every time.
+Open Instructor allows you to set default behaviors using a .env file. This provides a flexible way to configure the interpreter without changing command-line arguments every time.
 
 Here's a sample .env configuration:
 
@@ -255,23 +255,23 @@ INTERPRETER_CLI_DEBUG=False
 INTERPRETER_CLI_USE_AZURE=False
 ```
 
-You can modify these values in the .env file to change the default behavior of the Open Interpreter.
+You can modify these values in the .env file to change the default behavior of the Open Instructor.
 
 ## Safety Notice
 
 Since generated code is executed in your local environment, it can interact with your files and system settings, potentially leading to unexpected outcomes like data loss or security risks.
 
-**⚠️ Open Interpreter will ask for user confirmation before executing code.**
+**⚠️ Open Instructor will ask for user confirmation before executing code.**
 
 You can run `interpreter -y` or set `interpreter.auto_run = True` to bypass this confirmation, in which case:
 
 - Be cautious when requesting commands that modify files or system settings.
-- Watch Open Interpreter like a self-driving car, and be prepared to end the process by closing your terminal.
-- Consider running Open Interpreter in a restricted environment like Google Colab or Replit. These environments are more isolated, reducing the risks associated with executing arbitrary code.
+- Watch Open Instructor like a self-driving car, and be prepared to end the process by closing your terminal.
+- Consider running Open Instructor in a restricted environment like Google Colab or Replit. These environments are more isolated, reducing the risks associated with executing arbitrary code.
 
 ## How Does it Work?
 
-Open Interpreter equips a [function-calling language model](https://platform.openai.com/docs/guides/gpt/function-calling) with an `exec()` function, which accepts a `language` (like "Python" or "JavaScript") and `code` to run.
+Open Instructor equips a [function-calling language model](https://platform.openai.com/docs/guides/gpt/function-calling) with an `exec()` function, which accepts a `language` (like "Python" or "JavaScript") and `code` to run.
 
 We then stream the model's messages, code, and your system's outputs to the terminal as Markdown.
 
@@ -283,7 +283,7 @@ Please see our [Contributing Guidelines](./CONTRIBUTING.md) for more details on 
 
 ## License
 
-Open Interpreter is licensed under the MIT License. You are permitted to use, copy, modify, distribute, sublicense and sell copies of the software.
+Open Instructor is licensed under the MIT License. You are permitted to use, copy, modify, distribute, sublicense and sell copies of the software.
 
 **Note**: This software is not affiliated with OpenAI.
 
